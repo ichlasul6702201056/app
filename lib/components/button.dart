@@ -3,8 +3,8 @@ import 'package:app/style/font.dart';
 
 class CustomButton extends StatelessWidget {
   final VoidCallback onPressed;
-
-  const CustomButton({Key? key, required this.onPressed}) : super(key: key);
+  final String text;
+  const CustomButton({super.key, required this.onPressed, required this.text});
 
   @override
   Widget build(BuildContext context) {
@@ -14,7 +14,7 @@ class CustomButton extends StatelessWidget {
       child: OutlinedButton(
         onPressed: onPressed,
         child: Text(
-          'START',
+          text,
           style: FontStyle.h2FontStyle,
         ),
       ),
