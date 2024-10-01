@@ -8,7 +8,7 @@ void main() {
   runApp(MaterialApp(
     routes: {
       '/' : (context) => const LandingPage(),
-      '/main' : (context) => HomePage(), 
+      '/main' : (context) => const HomePage(), 
       '/detail' : (context) => Detail(item: ModalRoute.of(context)!.settings.arguments as ApiResponse),
     },
   ));

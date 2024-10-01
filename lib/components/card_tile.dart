@@ -39,7 +39,7 @@ class CustomCardTile extends StatelessWidget {
           ),
         );
       },
-      trailing: Text(),
+      trailing: const Text(),
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(10),
         side: const BorderSide(color: Colors.black),

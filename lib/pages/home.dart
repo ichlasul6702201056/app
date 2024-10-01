@@ -1,6 +1,5 @@
 import 'package:app/components/card_tile.dart';
 import 'package:app/data/response.dto.dart';
-import 'package:app/pages/detail.dart';
 import 'package:flutter/material.dart';
 import 'package:app/style/font.dart';
 import 'package:app/style/color.dart';
